@@ -13,6 +13,9 @@
 		ED1544DA27525A7200EA98C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1544D827525A7200EA98C7 /* Main.storyboard */; };
 		ED1544DC27525A7600EA98C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1544DB27525A7600EA98C7 /* Assets.xcassets */; };
 		ED1544DF27525A7600EA98C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1544DD27525A7600EA98C7 /* LaunchScreen.storyboard */; };
+		ED1544E727525E1900EA98C7 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1544E627525E1900EA98C7 /* Patient.swift */; };
+		ED1544E92752618800EA98C7 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1544E82752618800EA98C7 /* Doctor.swift */; };
+		ED4B498C2752D99C001835B2 /* DoctorFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B498B2752D99C001835B2 /* DoctorFriend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		ED1544DB27525A7600EA98C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED1544DE27525A7600EA98C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED1544E027525A7600EA98C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1544E627525E1900EA98C7 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		ED1544E82752618800EA98C7 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		ED4B498B2752D99C001835B2 /* DoctorFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorFriend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				ED1544DB27525A7600EA98C7 /* Assets.xcassets */,
 				ED1544DD27525A7600EA98C7 /* LaunchScreen.storyboard */,
 				ED1544E027525A7600EA98C7 /* Info.plist */,
+				ED1544E627525E1900EA98C7 /* Patient.swift */,
+				ED1544E82752618800EA98C7 /* Doctor.swift */,
+				ED4B498B2752D99C001835B2 /* DoctorFriend.swift */,
 			);
 			path = Lesson9;
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED1544D727525A7200EA98C7 /* ViewController.swift in Sources */,
+				ED1544E92752618800EA98C7 /* Doctor.swift in Sources */,
+				ED1544E727525E1900EA98C7 /* Patient.swift in Sources */,
 				ED1544D327525A7200EA98C7 /* AppDelegate.swift in Sources */,
+				ED4B498C2752D99C001835B2 /* DoctorFriend.swift in Sources */,
 				ED1544D527525A7200EA98C7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
