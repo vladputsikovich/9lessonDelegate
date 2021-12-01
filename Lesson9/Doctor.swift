@@ -8,7 +8,7 @@
 import Foundation
 
 class Doctor: PatientDelegate {
-    var listPatient: [(Patient, PartOfBody)]? = nil
+    var listPatient: [(Patient, PartOfBody)]? = []
     
     func hasQuestion(_ question: String, _ patient: Patient) {
         print("Patient \(patient.name) has question: \(question)")
