@@ -13,7 +13,7 @@ protocol PatientDelegate {
     func whatHurts (_ patient: Patient, _ partOfBody: PartOfBody)
 }
 
-enum PartOfBody{
+enum PartOfBody {
     case head
     case body
     case leg
