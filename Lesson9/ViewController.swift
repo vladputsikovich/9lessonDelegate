@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         }
         
         doctor.raport()
+        // Сделать изменение врача
     }
 }
 
